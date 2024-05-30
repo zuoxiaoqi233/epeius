@@ -25,7 +25,10 @@ let subconverter = 'url.v1.mk';// clash订阅转换后端，目前使用肥羊�
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"; //订阅配置文件
 let RproxyIP = 'false';
 
-let addressesapi = [];
+let addressesapi = [
+	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/ip.txt', //可参考内容格式 自行搭建。
+	'https://addressesapi.090227.xyz/cmcc', 
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。];
 let addressescsv = [];
 let DLS = 8;
 
