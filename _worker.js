@@ -11,13 +11,6 @@ let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
 	'cf.090227.xyz:443#加入我的频道t.me/CMLiussss解锁更多优选节点',
 	'time.is#你可以只放域名 如下',
-	'www.visa.com.sg',
-	'skk.moe#也可以放域名带端口 如下',
-	'www.wto.org:8443',
-	'www.csgo.com:2087#节点名放在井号之后即可',
-	'icook.hk#若不带端口号默认端口为443',
-	'104.17.152.41#IP也可以',
-	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6也OK',
 ];
 
 let sub = ''; 
@@ -28,7 +21,8 @@ let RproxyIP = 'false';
 let addressesapi = [
 	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/ip.txt', //可参考内容格式 自行搭建。
 	'https://addressesapi.090227.xyz/cmcc', 
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。];
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	];
 let addressescsv = [];
 let DLS = 8;
 
